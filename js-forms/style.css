@@ -1,0 +1,123 @@
+body {
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+}
+
+.msg-sender-form {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.error-msg {
+    color: rgb(253, 85, 85);
+    font-weight: bold;
+    visibility: hidden;
+}
+
+
+.input-field-wrap {
+    margin: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.labell{
+    width: 100px;
+    margin: auto 0;
+}
+
+.input-field-wrap label, .input-field label {
+    margin-left: 15px;
+    color: rgb(117, 117, 117);
+}
+
+.input-field label {
+    margin: 10px 25px;
+}
+
+
+.input-field-wrap input,.input-field input {
+    padding: 9px 15px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #666;
+    border-radius: 5px;
+}
+
+.input-field-wrap input:focus {
+    box-shadow: 0 0 10px #ccc;
+    outline: none;
+}
+
+.input-normal-border {
+    border: 1px solid #fff;
+}
+
+.input-red-border {
+    border: 2px solid rgb(253, 85, 85);
+}
+
+.dest-select {
+    padding: 7px 13px;
+    margin: 0px 10px;
+    width: 228px;
+    color: #666;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #fff;
+}
+
+
+.dest-select:focus {
+    box-shadow: 0 0 10px #ccc;
+    outline: none;
+}
+
+.msg-sender-form textarea {
+    margin-left: 20px;
+    padding: 20px;
+    color: #666;
+    font-size: 19px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+
+}
+
+.msg-sender-form textarea:focus {
+    box-shadow: 0 0 10px #ccc;
+    outline: none;
+}
+
+.form-check-btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    color: #666;
+    font-size: 16px;
+    background: aquamarine;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 7px rgb(150, 150, 150);
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.form-check-btn:hover {
+    background: aqua;
+}
